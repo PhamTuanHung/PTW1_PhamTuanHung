@@ -1,0 +1,83 @@
+$align : center;
+@mixin size ($width, $height) {
+    width: $width;
+    height: $height;
+}
+@mixin sizecolor($a,$b) {
+    font-size: $a;
+    color: $b;
+}
+@mixin backcolor($c,$d){
+    color: $c;
+    background: $d;
+}
+.type-1741 {
+    .content .mar-top30 {
+        margin-top: 30px;
+        font-family: "Lato",sans-serif;
+        .col-inner2 
+        {
+            .box-image {
+                width: 80%;
+                margin: 0px auto;
+                border-radius: 100%;
+                overflow: hidden;
+                img {
+                    @include size(100%,100%);
+                    object-fit: cover;
+                    }
+            }
+            .box-text {
+                text-align: $align;
+                padding: 10px 10px 20px 10px;
+                .uppercase {
+                    .person-name {
+                        @include sizecolor(18px,#555);
+                        text-transform: uppercase;
+                    } 
+                    .person-title {
+                        @include sizecolor (13px, #555);
+                        opacity: 0.7;
+                    }
+                }
+                .icon-inner {
+                    a{
+                        text-decoration: none; 
+                    }
+                    display: flex;
+                    align-items: $align;
+                    justify-content: $align;
+                    .icon {
+                        margin: 15px 2px;
+                        border: 2px solid silver;
+                        color: silver;border-radius: 100%;
+                        @include size(30px,30px);
+                        display: flex;
+                        align-items: $align;
+                        justify-content: $align;
+                    }
+                    .icon.a-fb:hover { 
+                        @include backcolor(#fff, #3a589d);
+                    }
+                    .icon.a-tw:hover {
+                        @include backcolor(#fff, #8A2BE2);
+                    }
+                    .icon.a-env:hover {
+                        @include backcolor (#fff, black);
+                    }
+                    .icon.a-pin:hover {
+                        @include backcolor(#fff, red);
+                    }
+                    .icon.a-lin:hover {
+                        @include backcolor(#fff,#6495ED);
+                    }
+                }
+                p {
+                    @include sizecolor(14px, #777);
+                    line-height: 1.6;
+                }
+                
+            }
+        }
+    }
+} 

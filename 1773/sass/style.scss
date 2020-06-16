@@ -1,0 +1,68 @@
+$color : #FFFFFF;
+@mixin vien($a, $b, $c){
+  border-width : $a;
+  border-style : $b;
+  border-color : $c;
+}
+.type-1773{
+  position: relative;
+  background-image: url(../images/img3.jpg);
+  background-size: cover;
+  background-attachment: fixed;
+  background-repeat: no-repeat;
+  height: 350px;
+  width: 100%;
+  overflow: hidden;
+  font-family: "Lato", sans-serif;
+  color: $color;
+    .fill{
+      height: 100%;
+    }
+    .text{
+      padding-top: 10%;
+      font-size: 40px;
+    }
+    .banner-layers{
+      position: relative;
+      height: 100%;
+    }
+    .is-divider{
+      margin: 3% 47%;
+      width: 5%;
+      @include vien(2px,solid ,#dee2e6);
+    }
+    .social-icons
+    {
+      font-size: 10px;
+      line-height: 30px;
+      margin: 20px;
+      a{
+          text-decoration: none;
+          i{
+            padding: 8px 9px;
+            color: #FFFFFF;
+            border-width: 2px;
+            border-style: solid;
+            border-color: gray;
+            border-radius: 100px;
+            margin-right: 10px;
+            font-size: 9px;
+          }
+          .fa-facebook:hover {
+          background: blue;
+          }
+          .fa-twitter:hover {
+            background:#6495ED;
+          }
+          .fa-envelope-o:hover {
+            background: black;
+          }
+          .fa-pinterest:hover {
+            background:red;
+          }
+          .fa-linkedin:hover {
+          background:#8B008B;
+        }
+      }
+    }
+}

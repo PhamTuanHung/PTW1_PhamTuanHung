@@ -1,0 +1,50 @@
+.type-1773 {
+  position: relative;
+  background-image: url(../images/img3.jpg);
+  background-size: cover;
+  background-attachment: fixed;
+  background-repeat: no-repeat;
+  height: 350px;
+  width: 100%;
+  overflow: hidden;
+  font-family: "Lato", sans-serif;
+  color: #FFFFFF; }
+  .type-1773 .fill {
+    height: 100%; }
+  .type-1773 .text {
+    padding-top: 10%;
+    font-size: 40px; }
+  .type-1773 .banner-layers {
+    position: relative;
+    height: 100%; }
+  .type-1773 .is-divider {
+    margin: 3% 47%;
+    width: 5%;
+    border-width: 2px;
+    border-style: solid;
+    border-color: #dee2e6; }
+  .type-1773 .social-icons {
+    font-size: 10px;
+    line-height: 30px;
+    margin: 20px; }
+    .type-1773 .social-icons a {
+      text-decoration: none; }
+      .type-1773 .social-icons a i {
+        padding: 8px 9px;
+        color: #FFFFFF;
+        border-width: 2px;
+        border-style: solid;
+        border-color: gray;
+        border-radius: 100px;
+        margin-right: 10px;
+        font-size: 9px; }
+      .type-1773 .social-icons a .fa-facebook:hover {
+        background: blue; }
+      .type-1773 .social-icons a .fa-twitter:hover {
+        background: #6495ED; }
+      .type-1773 .social-icons a .fa-envelope-o:hover {
+        background: black; }
+      .type-1773 .social-icons a .fa-pinterest:hover {
+        background: red; }
+      .type-1773 .social-icons a .fa-linkedin:hover {
+        background: #8B008B; }

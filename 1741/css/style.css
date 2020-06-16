@@ -1,0 +1,58 @@
+.type-1741 .content .mar-top30 {
+  margin-top: 30px;
+  font-family: "Lato", sans-serif; }
+  .type-1741 .content .mar-top30 .col-inner2 .box-image {
+    width: 80%;
+    margin: 0px auto;
+    border-radius: 100%;
+    overflow: hidden; }
+    .type-1741 .content .mar-top30 .col-inner2 .box-image img {
+      width: 100%;
+      height: 100%;
+      object-fit: cover; }
+  .type-1741 .content .mar-top30 .col-inner2 .box-text {
+    text-align: center;
+    padding: 10px 10px 20px 10px; }
+    .type-1741 .content .mar-top30 .col-inner2 .box-text .uppercase .person-name {
+      font-size: 18px;
+      color: #555;
+      text-transform: uppercase; }
+    .type-1741 .content .mar-top30 .col-inner2 .box-text .uppercase .person-title {
+      font-size: 13px;
+      color: #555;
+      opacity: 0.7; }
+    .type-1741 .content .mar-top30 .col-inner2 .box-text .icon-inner {
+      display: flex;
+      align-items: center;
+      justify-content: center; }
+      .type-1741 .content .mar-top30 .col-inner2 .box-text .icon-inner a {
+        text-decoration: none; }
+      .type-1741 .content .mar-top30 .col-inner2 .box-text .icon-inner .icon {
+        margin: 15px 2px;
+        border: 2px solid silver;
+        color: silver;
+        border-radius: 100%;
+        width: 30px;
+        height: 30px;
+        display: flex;
+        align-items: center;
+        justify-content: center; }
+      .type-1741 .content .mar-top30 .col-inner2 .box-text .icon-inner .icon.a-fb:hover {
+        color: #fff;
+        background: #3a589d; }
+      .type-1741 .content .mar-top30 .col-inner2 .box-text .icon-inner .icon.a-tw:hover {
+        color: #fff;
+        background: #8A2BE2; }
+      .type-1741 .content .mar-top30 .col-inner2 .box-text .icon-inner .icon.a-env:hover {
+        color: #fff;
+        background: black; }
+      .type-1741 .content .mar-top30 .col-inner2 .box-text .icon-inner .icon.a-pin:hover {
+        color: #fff;
+        background: red; }
+      .type-1741 .content .mar-top30 .col-inner2 .box-text .icon-inner .icon.a-lin:hover {
+        color: #fff;
+        background: #6495ED; }
+    .type-1741 .content .mar-top30 .col-inner2 .box-text p {
+      font-size: 14px;
+      color: #777;
+      line-height: 1.6; }
