@@ -1,0 +1,50 @@
+.type-1837 .panel {
+  color: #555;
+  font-family: "Lato", sans-serif;
+  font-size: 13px;
+  line-height: 1.6;
+  font-weight: bold; }
+  .type-1837 .panel .woocommerce {
+    padding-bottom: 4%; }
+    .type-1837 .panel .woocommerce .normal {
+      font-size: 20px;
+      margin-bottom: 8px; }
+    .type-1837 .panel .woocommerce .noreviews {
+      font-weight: normal; }
+  .type-1837 .panel .cot {
+    border: 2px solid #446084;
+    padding: 15px 30px 30px;
+    line-height: 2.5; }
+    .type-1837 .panel .cot .comment2 {
+      font-size: 20px; }
+    .type-1837 .panel .cot .stars {
+      padding-bottom: 2%; }
+    .type-1837 .panel .cot .chunhat2 {
+      display: block;
+      width: 100%; }
+    .type-1837 .panel .cot .check {
+      padding: 2% 0; }
+    .type-1837 .panel .cot .submit {
+      color: #fff;
+      background-color: #446084;
+      width: 10%;
+      border: none;
+      font-weight: bold;
+      text-transform: uppercase; }
+    .type-1837 .panel .cot .w-100 {
+      border: 1px solid #ddd;
+      box-shadow: inset 0 1px 2px rgba(0, 0, 0, 0.1);
+      height: 100px; }
+    .type-1837 .panel .cot input {
+      border: 1px solid #ddd;
+      box-shadow: inset 0 1px 2px rgba(0, 0, 0, 0.1); }
+    .type-1837 .panel .cot input:hover {
+      box-shadow: inset 0 -1.8em 1em 0 rgba(0, 0, 0, 0); }
+    .type-1837 .panel .cot textarea:hover {
+      box-shadow: inset 0 -1.8em 1em 0 rgba(0, 0, 0, 0); }
+    .type-1837 .panel .cot input:focus {
+      box-shadow: 0 0 5px #ccc;
+      outline: 0; }
+    .type-1837 .panel .cot textarea:focus {
+      box-shadow: 0 0 5px #ccc;
+      outline: 0; }

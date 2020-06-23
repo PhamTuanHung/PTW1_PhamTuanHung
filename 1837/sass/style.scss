@@ -1,0 +1,70 @@
+$fsize:20px;
+.type-1837{ 
+    .panel{
+            color: #555;
+            font-family: "Lato", sans-serif;
+            font-size: 13px;
+            line-height: 1.6;
+            font-weight: bold;
+            .woocommerce{
+                padding-bottom: 4%;
+                .normal{
+                    font-size: $fsize;
+                    margin-bottom: 8px;
+                }
+                .noreviews{
+                    font-weight: normal;
+                }
+
+            }
+            .cot{
+                border: 2px solid #446084;
+                padding: 15px 30px 30px;
+                line-height: 2.5;
+                .comment2{
+                    font-size: $fsize;
+                }
+                .stars{
+                    padding-bottom: 2%;
+                }
+                .chunhat2{
+                    display: block;
+                    width: 100%;
+                }
+                .check{
+                    padding: 2% 0;
+                }
+                .submit{
+                    color: #fff;
+                    background-color: #446084;
+                    width: 10%;
+                    border: none;
+                    font-weight: bold;
+                    text-transform: uppercase;
+                }
+                .w-100{
+                    border: 1px solid #ddd;
+                    box-shadow: inset 0 1px 2px rgba(0,0,0,0.1);
+                    height: 100px;
+                }
+                input{
+                    border: 1px solid #ddd;
+                    box-shadow: inset 0 1px 2px rgba(0,0,0,0.1);
+                }
+                input:hover{
+                    box-shadow: inset 0 -1.8em 1em 0 rgba(0,0,0,0);
+                }
+                textarea:hover{
+                    box-shadow: inset 0 -1.8em 1em 0 rgba(0,0,0,0);
+                }
+                input:focus{
+                    box-shadow: 0 0 5px #ccc;
+                    outline: 0;
+                }
+                textarea:focus{
+                    box-shadow: 0 0 5px #ccc;
+                    outline: 0;
+                }
+            }
+    }
+}
