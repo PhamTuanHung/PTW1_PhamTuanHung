@@ -12,7 +12,9 @@
     .type-1837 .panel .woocommerce .noreviews {
       font-weight: normal; }
   .type-1837 .panel .cot {
-    border: 2px solid #446084;
+    border-width: 2px;
+    border-style: solid;
+    border-color: #446084;
     padding: 15px 30px 30px;
     line-height: 2.5; }
     .type-1837 .panel .cot .comment2 {
@@ -32,11 +34,15 @@
       font-weight: bold;
       text-transform: uppercase; }
     .type-1837 .panel .cot .w-100 {
-      border: 1px solid #ddd;
+      border-width: 1px;
+      border-style: solid;
+      border-color: #ddd;
       box-shadow: inset 0 1px 2px rgba(0, 0, 0, 0.1);
       height: 100px; }
     .type-1837 .panel .cot input {
-      border: 1px solid #ddd;
+      border-width: 1px;
+      border-style: solid;
+      border-color: #ddd;
       box-shadow: inset 0 1px 2px rgba(0, 0, 0, 0.1); }
     .type-1837 .panel .cot input:hover {
       box-shadow: inset 0 -1.8em 1em 0 rgba(0, 0, 0, 0); }
