@@ -1,0 +1,81 @@
+.type-12 {
+  font-size: 14px;
+  font-family: sans-serif;
+  margin-left: 15%;
+  margin-right: 64%;
+  background-color: #F0F8FF;
+  line-height: 1.5; }
+  .type-12 .example input {
+    margin-top: 10%;
+    padding: 10px;
+    border: 2px solid #7FFFD4;
+    width: 100%;
+    background: #fff;
+    border-radius: 25px; }
+  .type-12 .menu1 {
+    padding-top: 10%; }
+    .type-12 .menu1 .tieude1 .Cart {
+      font-weight: bold;
+      font-size: 16px;
+      padding-bottom: 8%; }
+    .type-12 .menu1 .tieude1 .Cart2 {
+      border-bottom: 1px solid #88B44E;
+      position: relative;
+      width: 30px;
+      bottom: 34px;
+      left: 38px; }
+  .type-12 .menu2 {
+    padding-top: 20%; }
+    .type-12 .menu2 .tieude2 .Caterogies {
+      font-weight: bold;
+      font-size: 16px; }
+    .type-12 .menu2 .tieude2 .Caterogies2 {
+      border-bottom: 1px solid #88B44E;
+      position: relative;
+      width: 30px;
+      bottom: 12px;
+      left: 88px; }
+    .type-12 .menu2 .ull {
+      padding-left: 2%;
+      padding-top: 2%;
+      line-height: 1.6; }
+      .type-12 .menu2 .ull ul {
+        list-style-type: circle; }
+  .type-12 .Filter {
+    padding-top: 20%; }
+    .type-12 .Filter .content {
+      font-weight: bold;
+      font-size: 16px; }
+    .type-12 .Filter .content2 {
+      border-bottom: 1px solid #88B44E;
+      position: relative;
+      width: 30px;
+      bottom: 12px;
+      left: 46px; }
+  .type-12 .slidecontainer {
+    margin-top: 10px; }
+    .type-12 .slidecontainer .thanh {
+      width: 100%;
+      overflow: visible;
+      margin-bottom: 10px; }
+  .type-12 .price {
+    text-align: center;
+    font-weight: bold;
+    font-size: 16px; }
+  .type-12 .nut {
+    width: 40%;
+    margin-left: 32%;
+    border: none;
+    color: white;
+    background-color: #88B44E;
+    padding: 10px 31px 8px 26px;
+    border-radius: 25px; }
+    .type-12 .Product .nd1 {
+      font-weight: bold;
+      font-size: 16px; }
+    .type-12 .Product .nd2 {
+      border-bottom: 1px solid #88B44E;
+      position: relative;
+      width: 30px;
+      bottom: 12px;
+      left: 46px; }

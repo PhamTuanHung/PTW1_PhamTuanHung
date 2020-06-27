@@ -1,0 +1,112 @@
+.type-12{
+    font-size: 14px;
+    font-family: sans-serif;
+    margin-left: 15%;
+    margin-right: 64%;
+    background-color:#F0F8FF;
+    line-height: 1.5;
+
+    .example {
+        input{
+        margin-top: 10%;
+        padding: 10px;
+        border: 2px solid #7FFFD4;
+        width: 100%;
+        background: #fff;
+        border-radius: 25px;
+        }
+    }
+    .menu1{
+        padding-top: 10%;
+        .tieude1{
+            .Cart{
+            font-weight: bold;
+            font-size: 16px;
+            padding-bottom: 8%;
+            }
+            .Cart2{
+            border-bottom: 1px solid #88B44E;
+            position: relative; 
+            width: 30px;
+            bottom: 34px;
+            left: 38px;
+        }
+        }
+    }
+    .menu2{
+        padding-top: 20%;
+        .tieude2{
+            .Caterogies{
+            font-weight: bold;
+            font-size: 16px;
+            }
+            .Caterogies2{
+            border-bottom: 1px solid #88B44E;
+            position: relative; 
+            width: 30px;
+            bottom: 12px;
+            left: 88px;
+            }
+        }
+        .ull{
+            padding-left: 2%;
+            padding-top: 2%;
+            line-height: 1.6;
+            ul {
+                list-style-type: circle;
+    
+            }
+        }
+    }  
+
+    .Filter{
+        padding-top: 20%;
+        .content{
+            font-weight: bold;
+            font-size: 16px;
+        }
+        .content2{
+            border-bottom: 1px solid #88B44E;
+            position: relative; 
+            width: 30px;
+            bottom: 12px;
+            left: 46px;
+            }
+        }
+    
+    .slidecontainer {
+        margin-top: 10px;
+        .thanh {
+            width: 100%;
+            overflow: visible;
+            margin-bottom: 10px;
+            }
+    }
+    .price{
+        text-align: center;
+        font-weight: bold;
+        font-size: 16px;
+    }
+    .nut{
+        width: 40%;
+        margin-left: 32%;
+        border: none;
+        color: white;
+        background-color: #88B44E;
+        padding: 10px 31px 8px 26px;
+        border-radius: 25px;
+    }
+    .Product{
+        .nd1{
+            font-weight: bold;
+            font-size: 16px;
+        }
+        .nd2{
+            border-bottom: 1px solid #88B44E;
+            position: relative; 
+            width: 30px;
+            bottom: 12px;
+            left: 46px;
+        }
+    }
+}
