@@ -19,14 +19,14 @@ $url_path = str_replace('\\', '/', $url_path);
         </form>
         <div class="menu1">
             <div class="tieude1">
-                <p class="Cart">Cart</P>
+                <p class="Cart"><i class="fa fa-envira" aria-hidden="true"></i>Cart</P>
                 <p class="Cart2"></p>
             </div>
             <p>No products in the cart.</p>
         </div>
         <div class="menu2">
             <div class=tieude2>
-                <p class="Caterogies">Caterogies</p>
+                <p class="Caterogies"><i class="fa fa-envira" aria-hidden="true"></i>Caterogies</p>
                 <p class="Caterogies2"></p>
             </div>
             <div class="ull">
@@ -39,7 +39,7 @@ $url_path = str_replace('\\', '/', $url_path);
             </div>
         </div>
         <div class="Filter">
-            <h3 class="content">Filter</h3>
+            <h3 class="content"><i class="fa fa-envira" aria-hidden="true"></i>Filter</h3>
             <p class="content2"></p>
         </div> 
         <div class="slidecontainer">
@@ -51,12 +51,19 @@ $url_path = str_replace('\\', '/', $url_path);
             -
             <span>$4</span>
         </div>
-        <button class="nut">
-        Filter
-        </buton>
-        <div class = "Product">
-            <p class="nd1">Product tags</p>
+        <button type="button" class="nut">
+            <p>Filter</p>
+        </button>
+        <div class="Product">
+            <p class="nd1"><i class="fa fa-envira" aria-hidden="true"></i>Product tags</p>
             <p class="nd2"></p>
         </div>
+        <div class ="tag">
+            <a href="#" class="tagtag">#black</a>
+            <a href="#" class="tagtag">#green</a>
+            <a href="#" class="tagtag">#organic</a>
+            <a href="#" class="tagtag">#sweet</a>
+            <a href="#" class="tagtag">#tea</a>
+        </div>  
     </div>
 </div>
